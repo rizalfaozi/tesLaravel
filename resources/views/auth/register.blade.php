@@ -129,7 +129,7 @@
 
             </div>    
 
-           <!--  <div class="form-group has-feedback{{ $errors->has('credit-card-number') ? ' has-error' : '' }}">
+            <div class="form-group has-feedback{{ $errors->has('credit-card-number') ? ' has-error' : '' }}">
                 <input type="text" class="form-control" name="credit-card-number" value="{{ old('credit-card-number') }}" placeholder="No Credit Card ">
                 <span class="glyphicon glyphicon-credit-card form-control-feedback"></span>
 
@@ -161,7 +161,7 @@
                         <strong>{{ $errors->first('credit-validation-code') }}</strong>
                     </span>
                 @endif
-            </div> -->
+            </div>
 
             <div class="form-group has-feedback{{ $errors->has('password') ? ' has-error' : '' }}">
                 <input type="password" class="form-control" name="password" placeholder="Password">
